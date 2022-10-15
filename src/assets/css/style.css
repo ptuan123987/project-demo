@@ -7,7 +7,8 @@
 header {
     background: #f2f1fc url(/src/assets/img/background/rou-background-1.png) no-repeat center center;
     background-size: cover;
-    height: 1000px;
+    padding-bottom: 128px;
+    /* height: 1000px; */
 }
 
 .navbar-brand {
