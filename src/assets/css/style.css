@@ -1,0 +1,61 @@
+.icons i {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+}
+
+header {
+    background: #f2f1fc url(/src/assets/img/background/rou-background-1.png) no-repeat center center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.navbar-brand {
+    display: block;
+    max-width: 88px;
+    max-height: 48px;
+    width: auto;
+    height: auto;
+}
+
+img {
+    display: block;
+    max-width: 600px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+}
+
+.btn-outline-success:hover {
+    background-color: #c04ae2;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 3px #B0B3B2;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-youtube {
+    color: #ff1e00;
+}
+
+.fa-instagram {
+    color: #e0756c;
+}
+
+.dropdown-menu {
+    background-color: #EDDBED;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px #EDE0E3;
+    /* max-width: 300px; */
+}
+
+.dropdown-menu a:hover {
+    background-color: #E6EAF9;
+}
