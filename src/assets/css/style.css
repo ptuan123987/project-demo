@@ -60,3 +60,9 @@ img {
 .dropdown-menu a:hover {
     background-color: #E6EAF9;
 }
+
+.content {
+    height: 2000px;
+    background: url(/src/assets/img/background/rou-bg-2.png) no-repeat center center;
+    background-size: cover;
+}
