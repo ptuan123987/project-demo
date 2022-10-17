@@ -121,3 +121,7 @@ header {
     font-size: 14px;
     font-weight: 600;
 }
+
+.content .intro .creative-team button:hover {
+    background-color: #8a848b;
+}
