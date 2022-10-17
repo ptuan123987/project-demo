@@ -4,6 +4,10 @@
     line-height: 48px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background: #f2f1fc url(/src/assets/img/background/rou-background-1.png) no-repeat center center;
     background-size: cover;
@@ -15,14 +19,6 @@ header {
     display: block;
     max-width: 88px;
     max-height: 48px;
-    width: auto;
-    height: auto;
-}
-
-img {
-    display: block;
-    max-width: 600px;
-    max-height: 700px;
     width: auto;
     height: auto;
 }
@@ -65,4 +61,63 @@ img {
     height: 2000px;
     background: url(/src/assets/img/background/rou-bg-2.png) no-repeat center center;
     background-size: cover;
+}
+
+.content .intro .sm-title {
+    color: #c456e4;
+    font-weight: 600;
+}
+
+.content .intro .item-1 {
+    border: 6px solid #fcd7df;
+    border-radius: 10px;
+    color: #111;
+}
+
+.content .intro .icon {
+    font-size: 48px;
+}
+
+.content .intro .item-1 .icon {
+    color: #fe6686;
+}
+
+.content .intro .item-2 {
+    border: 6px solid #c9f3e2;
+    border-radius: 10px;
+    color: #111;
+}
+
+.content .intro .item-2 .icon {
+    color: #54d6a1;
+}
+
+.content .intro .item-3 {
+    border: 6px solid #f2d5ba;
+    border-radius: 10px;
+}
+
+.content .intro .item-3 .icon {
+    color: #fe9a3f;
+}
+
+.content .intro .info-product {
+    color: #5e5859;
+}
+
+.content .intro .creative-team {
+    margin-top: 64px;
+}
+
+.content .intro .creative-team p {
+    color: #5e5858;
+}
+
+.content .intro .creative-team button {
+    background-color: #c04ae2;
+    color: #fff;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
 }
