@@ -58,7 +58,6 @@ header {
 }
 
 .content {
-    height: 2000px;
     background: url(/src/assets/img/background/rou-bg-2.png) no-repeat center center;
     background-size: cover;
 }
@@ -124,4 +123,39 @@ header {
 
 .content .intro .creative-team button:hover {
     background-color: #8a848b;
+}
+
+.content .intro .service .product {
+    background-color: #fffcfa;
+    box-shadow: 1px 0px 10px rgba(198, 208, 228, 0.7);
+    border-radius: 10px;
+}
+
+.content .intro .service .product .product-info {
+    color: #616362;
+}
+
+.three-div {
+    background-image: url(/src/assets/img/background/rou-back-ground-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*  */
+
+#portfolio .project-item-1 .dev-sm-title {
+    color: #fe6687;
+}
+
+#portfolio .project-item-2 .dev-sm-title {
+    color: #54d6a1;
+}
+
+#portfolio .project-item-3 .dev-sm-title {
+    color: #fe9a3f;
+}
+
+#portfolio .dev-info {
+    color: #5e5858;
 }
