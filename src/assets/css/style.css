@@ -159,3 +159,101 @@ header {
 #portfolio .dev-info {
     color: #5e5858;
 }
+
+#team .title .sm-title {
+    color: #c04ae2;
+}
+
+#portfolio .sm-title {
+    color: #c04ae2;
+    ;
+}
+
+
+/* @media screen and (min-width: 768px) {
+    #team .member-list {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    #team .member-list .member {
+        position: absolute;
+    }
+    #team .member-list .member:nth-child(1) {
+        top: 0;
+        left: 5rem;
+    }
+    #team .member-list .member:nth-child(2) {
+        top: 2.5rem;
+        left: 15rem;
+    }
+    #team .member-list .member:nth-child(3) {
+        top: 0;
+        left: 25rem;
+    }
+    #team .member-list .member:nth-child(4) {
+        top: 2.5rem;
+        left: 35rem;
+    }
+} */
+
+#team .member-list .member .job-position {
+    color: #adb0ba;
+}
+
+#testimonial .comment .sm-title {
+    color: #c04ae2;
+}
+
+#testimonial .comment .content {
+    color: #5e5858;
+}
+
+#testimonial .comment .author {
+    position: relative;
+}
+
+#testimonial .comment .author:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 24px;
+    top: 16px;
+    left: 2px;
+    border-radius: 2px;
+    background-color: #332e98;
+}
+
+#testimonial .comment .author {
+    color: #5e5858;
+}
+
+#contact-us section .title .sm-title {
+    color: #c04ae2;
+}
+
+#contact-us .info-contact .content {
+    color: #5e5858;
+}
+
+#contact-us .info-contact .icon-item {
+    /* font-size: 20px; */
+    display: block;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+#contact-us .info-contact .icon-item {
+    /* font-size: 20px; */
+    display: block;
+    background-color: gray;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    color: white;
+    border-radius: 50%;
+}
