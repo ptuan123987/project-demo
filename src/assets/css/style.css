@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
 .icons i {
     display: inline-block;
     height: 48px;
@@ -256,4 +266,24 @@ header {
     line-height: 42px;
     color: white;
     border-radius: 50%;
+}
+
+footer .items .item {
+    color: #5e5858;
+}
+
+footer .items .item a {
+    color: #5e5858;
+}
+
+footer .info {
+    color: #5e5858;
+}
+
+@media screen and (max-width: 768px) {
+    #about,
+    #service,
+    #touch {
+        display: none;
+    }
 }
